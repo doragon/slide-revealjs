@@ -27,10 +27,12 @@ reveal-ck serve
 ### gh-pagesブランチ
 
 - masterブランチの .gitignore に slides/ を登録
-- git checkout --orphan gh-pages で親commitがないgh-pagesブランチを作成。git commit --allow-empty で空コミット作ってpush
-- git clone <git url> --branch gh-pages --single-branch ./slides でslides配下にgh-pagesのみをclone
+- git checkout --orphan gh-pages で親commitがないgh-pagesブランチを作成
+- git commit --allow-empty で空コミット作ってpush
+- git clone [git url] --branch gh-pages --single-branch ./[任意のディレクトリ名] で[任意のディレクトリ名]配下にgh-pagesのみをclone
+- cd [任意のディレクトリ名]
 - reveal-ck generate でslides/ ファイルを作成
-- cd slides して commit & push したらそれがgh-pagesに反映される
+- commit & push したらそれがgh-pagesに反映される
 
 ### gh-pagesでの確認
 
