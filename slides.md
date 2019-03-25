@@ -28,3 +28,9 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 ***
 
 ## Next horizontal
+
+test
+
+---
+
+hogefuga
