@@ -34,4 +34,4 @@ reveal-ck serve
 
 ### gh-pagesでの確認
 
-https://doragon.github.io/slide-revealjs/slides
+https://doragon.github.io/slide-revealjs/slides/#/
